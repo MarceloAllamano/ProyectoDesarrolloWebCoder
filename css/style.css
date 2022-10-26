@@ -49,6 +49,7 @@ header div h2 {
 }
 h2{
     font-size:  3.5rem;
+   
 }  
 header{
     height: 100vh;
@@ -151,25 +152,36 @@ main div p{
 }
 
 
+
+
 .square1{
-    background-color: blue;
+    background-image: url(./../imag/Screenshot_3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60rem;
+    height: 35rem;
 }
 .square2{
-    background-color: red;
-    transition: all 0.5s;
+   background-image: url(./../imag/Screenshot_4.png);
+    transition: all 1.5s;
+    width: 60rem;
+    height: 35rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .square1, .square2{
-    height: 100px;
-    width: 100px;
+    
     border-radius: 8px;
     margin: 50px;
     position: absolute;
 }
 .square2:hover{
-    transform: translate(130px);
+    transform: translate(530px);
 
 }
-
 
 .imagenes{
     width: 60rem;
@@ -204,7 +216,7 @@ footer {
 }
 /* entre nosotros */
 .gerentes{
-    width: 38rem;
+    width: 40rem;
     height: 38rem;
     border-radius: 50%;
 }
