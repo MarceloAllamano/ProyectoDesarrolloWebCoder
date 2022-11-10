@@ -5,23 +5,23 @@ font-family: 'Roboto', sans-serif; */
     padding: 0;
     font-size: 62.5%;
 }
-li {
-    list-style-type: none;
-    display: inline;
-    padding: 2rem;
-    font-size: 4rem;
-    margin: 2rem;
-    text-align: end;
-}
+
+
+
 ul li a{
     color: rgb(219, 43, 8);
     text-decoration: none;
     
 }
-ul{
-    display:inline;
+li { 
+    display: inline;
+    padding: 2rem;
+    font-size: 4rem;
+    margin: 2rem;
+    text-align: center;
+}
 
-} 
+
 
 .logo{
     margin: 1rem;
@@ -151,24 +151,7 @@ main div p{
 }
 
 
-.square1{
-    background-color: blue;
-}
-.square2{
-    background-color: red;
-    transition: all 0.5s;
-}
-.square1, .square2{
-    height: 100px;
-    width: 100px;
-    border-radius: 8px;
-    margin: 50px;
-    position: absolute;
-}
-.square2:hover{
-    transform: translate(130px);
 
-}
 
 
 .imagenes{
@@ -260,4 +243,5 @@ h3 h4{
     .box-padre{
         flex-direction: column;
     }
+
 }
