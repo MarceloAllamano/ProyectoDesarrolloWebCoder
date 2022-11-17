@@ -6,13 +6,11 @@ font-family: 'Roboto', sans-serif; */
     font-size: 62.5%;
 }
 
-
-
 ul li a{
     color: rgb(219, 43, 8);
     text-decoration: none;
-    
 }
+
 li { 
     display: inline;
     padding: 2rem;
@@ -20,8 +18,6 @@ li {
     margin: 2rem;
     text-align: center;
 }
-
-
 
 .logo{
     margin: 1rem;
@@ -33,17 +29,15 @@ li {
     height: 100%;
 }
 
-
-
 h1{
-    font-size:12rem;
+    font-size:10rem;
     text-align: center;
     color: chartreuse;
     font-family: "Roboto" ;
     font-weight: 900;
 }
 header div h2 {
-    font-size: 7rem;
+    font-size: 5rem;
     text-align: center;
     color: chartreuse;
 }
@@ -54,12 +48,11 @@ header{
     height: 100vh;
 }
 main div p{
-    width: 47%;
-  border: solid black .2rem;
-  display: flex;
-  flex-direction: row;
- 
-}
+     width: 47%;
+     border: solid black .2rem;
+     display: flex;
+     flex-direction: row;
+ }
 
 .par {
     display: flex;
@@ -70,7 +63,6 @@ main div p{
 .fon-size25{
     font-size: 2.5rem;
 }
-
 
 .backg-azul{
      background-image: linear-gradient(red,beige); 
@@ -100,8 +92,6 @@ main div p{
     margin-bottom: 2rem;
 }
 
-
-
 .contacto{
     background-color: rgb(238, 190, 190);
 }
@@ -111,11 +101,7 @@ main div p{
     flex-direction: row;
 }
 
-
-
-
 .imagenFondo{
-   
     background-image: url("../imagenesRamdon/jonathan-daniels-sfqxNM2ugfc-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -150,13 +136,9 @@ main div p{
     color: yellow;
 }
 
-
-
-
-
 .imagenes{
-    width: 60rem;
-    height: 35rem;
+    width: 58rem;
+    height: 36rem;
     margin: 0 auto;
     
 }
@@ -177,13 +159,11 @@ footer {
 }
 .facebook{
     color: blue;
-   
     font-size: 10rem;
 }
 .instagram{
     color :blueviolet;
-   
-   font-size: 10rem;
+    font-size: 10rem;
 }
 /* entre nosotros */
 .gerentes{
@@ -202,12 +182,10 @@ footer {
 }
 
 .box-1 {
-    
     border: solid brown 2px;
     height: 100%
-  
-
 }
+
 .box-2{
     border: solid red 2px;
     background-color: coral;
@@ -227,8 +205,8 @@ h3 h4{
 @media screen and (max-width:768px){
     .par{
         display: flex;
-       flex-direction: column;
-       justify-content:space-evenly;
+        flex-direction: column;
+        justify-content:space-evenly;
        
     }
     main div p{
